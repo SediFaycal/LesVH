@@ -63,6 +63,9 @@ export default function Navbar() {
               <NavLink href={'#dashboard'}>COLLECTIONS</NavLink>
               <NavLink href={'#dashboard'}>CART</NavLink>
             </HStack>
+            <HStack as={'nav'} spacing={10} ml={990} display={{base: 'none', md: 'flex'}}>
+            <NavLink href={'/'}>LES VH</NavLink>
+            </HStack>
           </HStack>
         </Flex>
       </Box>
