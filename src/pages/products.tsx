@@ -1,8 +1,7 @@
 import Head from 'next/head'
-import { Inter } from 'next/font/google'
 import Navbar from '@/components/navbar/nav'
-import BodyIndex from '@/components/body/bodyIndex'
 import SmallWithNavigation from '@/components/footer/footer'
+import Products from '@/components/body/bodyProducts'
 
 
 export default function Home() {
@@ -16,7 +15,7 @@ export default function Home() {
       </Head>
       <main>
         <Navbar/>
-        <BodyIndex/>
+        <Products/>
         <SmallWithNavigation/>
       </main>
     </>
