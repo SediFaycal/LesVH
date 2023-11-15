@@ -30,7 +30,7 @@ const NavLink = (props: Props) => {
       as="a"
       color={'white'} // Couleur du texte
       _hover={{
-        color: '#A3ABB8',
+        color: '#B7B8B7',
       }}
       fontFamily={'Courier New'}
       href={href}

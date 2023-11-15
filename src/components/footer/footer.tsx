@@ -17,13 +17,15 @@ export default function SmallWithNavigation() {
         justify={{ base: 'center', md: 'space-between' }}
         align={{ base: 'center', md: 'center' }}>
         <Stack direction={'row'} ml={'71%'} spacing={6}>
-          <Box as="a" href={'#'}>
+          <Box as="a" href={'#'}
+          _hover={{color: '#A3ABB8'}}>
             Instagram
           </Box>
-          <Box as="a" href={'#'}>
+          <Box as="a" href={'#'}
+           _hover={{color: '#A3ABB8'}}>
             About
           </Box>
-          <Box as="a" href={'#'}>
+          <Box as="a" href={'#'} _hover={{color: '#A3ABB8'}}>
             Contact
           </Box>
         </Stack>
