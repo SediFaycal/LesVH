@@ -17,7 +17,7 @@ export default function SmallWithNavigation() {
         justify={{ base: 'center', md: 'space-between' }}
         align={{ base: 'center', md: 'center' }}>
         <Stack direction={'row'} ml={'71%'} spacing={6}>
-          <Box as="a" href={'#'}
+          <Box as="a" href={'https://www.instagram.com/lesvh_/'} target="_blank"
           _hover={{color: '#A3ABB8'}}>
             Instagram
           </Box>
